@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+.game-list {
+    display: flex;
+    gap: 30px;
+    list-style: none
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    text-transform: uppercase;
+    
+    list-style: none;
+    text-align: center;
+
+    margin: 0 auto;
+    
+    width: 440px;
+
+    margin-bottom: 50px;
+    color: white;
+
+    margin-top: 50px;
+
+}
+
+.header-block {
+    display: flex;
+    background-color: rgb(59, 61, 182);
+    align-items: center;
+    z-index: 100;
+
+}
+
+.menu-item {
+    
+    list-style: none;
+    color: white;
+
+}
+
+.menu-link {
+    
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    
+    font-family: "Exo 2", sans-serif;
+    font-size: 25px;
+
+}
+
+.game-item {
+    border: 1px solid blue;
+
+    border-radius: 30px;
+    background-color: beige;
+    padding: 30px;
+
+}
+
+.skins-item {
+    width: 300px;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 10px 2px blue;
+    background-color: light-blue;
+
+
+}
+
+
+.game-img {
+    border-radius: 30px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.play-now {
+    padding: 7px 12px;
+    background-color: rgba(6, 6, 160, 0.712);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.play-now:hover {
+    background-color: rgba(3, 3, 66, 0.712);
+    color: rgb(196, 236, 179);
+    color: yellow (167, 236, 231);
+
+}
+
+.main-photo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.tutorial-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    border: 1px solid red;
+    width: 1305px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+}
+
+
+
+.gift-card-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.container {
+    width: 1300px;
+    border: 1px solid orange;
+    margin: 0 auto;
+}
+
+.section-gift-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tutorial-title {
+    text-align: center;
+    font-size: 40px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: "Exo 2", sans-serif;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.skins-icon {
+    width: 30px;
+}
+
+.skins-wrapper-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skins-wrappper-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skins-img {
+    width: 100%;
+    height: 270px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.skins-item {
+    background-color: rgba(0, 255, 255, 0.633);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.skins-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 10px
+}
+
+.footer {
+    background-color: rgb(59, 61, 182);
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.tutorial-item {
+    box-shadow: 4px 4px 5px 2px blue;
+    width: 420px;
+
+
+
+}
+
+.game-item {
+    box-shadow: 3px 3px 8px 3px blue;
+
+
+}
+
+.item-gift-card {
+    box-shadow: 3px 3px 8px 3px black;
+    border-radius: 12px;
+
+}
+
+.skins_btn {
+    padding: 5px 15px;
+    border: none;
+    background-color: blanchedalmond;
+}
+
+.item-gift-card {
+    padding: 5px 20px;
+    border: none;
+    background-color: yellow;
+}
+
+
+.pane {
+    display: none;
+    margin-top: 8px;
+}
+
+.pane.is-active {
+    display: block;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: tomato;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    /*  Set transition values  */
+    transition-property: background-color, transform;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+    position: relative;
+    left: 30px;
+}
+
+t
+
+/* On hover, change the values of animated properties */
+.box:hover {
+    background-color: teal;
+    transform: rotate(360deg);
+}
+
+.character {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+.character:hover {
+    cursor: pointer;
+    background-color: rgb(2, 2, 196);
+}
+
+.tabs {
+    margin: 0 auto;
+    width: 370px;
+    /* border: 1px solid black; */
+}
+
+.skins_btn:hover {
+    cursor: pointer;
+    background-color: white
+}
+
+body {
+    margin: 0;
+    padding-top: 80px;
+}
+
+.page-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-height: 80px;
+    /* background-color: skyblue; */
+    outline: solid black;
+}
+
+.price-crossed-out {
+    text-decoration: line-through;
+
+}
+
+.img-logo-robux {
+    width: 20px;
+    display: block;
+}
+
+
+.mini-logo-robux {
+    width: 20px;
+    display: block;
+}
+
+.card-list {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 700px;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-btn {
+    /* display: block; */
+    display: flex;
+    margin-left: 200px;
+    padding: 10px 50px;
+    background-color: rgb(193, 192, 192);
+    border-radius: 10px;
+    border: none;
+}
+
+.price-btn:hover {
+    background-color: rgb(144, 142, 142);
+    cursor: pointer;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.wrapper-span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-shop {
+    margin: 0 auto;
+    width: 700px;
+    padding: 10px;
+}
+
+.wrapper-div {
+    background-image: url("https://wallpapers.com/images/hd/roblox-characters-game-8j7aj559j0brv237.jpg"), linear-gradient(90deg, #121215, rgba(18, 18, 21, 0));
+    /* background-image: linear-gradient(90deg, #121215, rgba(18, 18, 21, 0)); */
+}
+
+.mini-title,
+.shop-description {
+    font-size: 50px;
+    color: white;
+}
+
+.section-shop {
+    margin-top: 40px;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(243 243 243);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+}
+
+.wrapper-div {
+    border-radius: 20px;
+}
+
+.new-section {
+    padding: 5px;
+    border: 4px;
+}
+
+/* ANIMATIONS */
+
+.rotate-center {
+    animation: rotate-center 3s ease-in-out both;
+}
+
+@keyframes rotate-center {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-vert-center {
+    animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
